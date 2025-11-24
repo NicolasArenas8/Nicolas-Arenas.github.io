@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sobre mí - Nicolas Arenas Ramírez</title>
+    <title>Nicolas Arenas Ramírez</title>
     <style>
         body {
             font-family: Arial, sans-serif;
