@@ -1,34 +1,100 @@
-# Nicolas-Arenas.github.io
+[NICO.html](https://github.com/user-attachments/files/23761583/NICO.html)
 <!DOCTYPE html>
-<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Nicolas Arenas Ramírez</title>
+    <title>Presentación de Nicolás</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding-top: 50px;
+            background-color: #e1ecff;
+            margin: 0;
+            padding: 20px;
         }
-        .card {
-            background: white;
-            width: 60%;
+
+        .contenedor {
+            background-color: #ffffff;
+            max-width: 900px;
             margin: auto;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #cdd7f5;
         }
-        h1 { color: #333; }
-        p { font-size: 18px; }
+
+        h1 {
+            color: #1a3d8f;
+        }
+
+        h2 {
+            color: #2a4ea1;
+            border-bottom: 2px solid #d1ddff;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 10px 14px;
+            background-color: #2a4ea1;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 8px;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        .boton:hover {
+            background-color: #1a3d8f;
+        }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <h1>Hola 👋</h1>
-        <p>Soy <strong>Nicolas Arenas Ramírez</strong>, tengo <strong>18 años</strong> y soy de <strong>Arequipa, Perú</strong>.</p>
-    </div>
+<div class="contenedor">
+    <h1>Hola, mi nombre es Nicolás</h1>
+
+    <h2>¿Quién soy yo?</h2>
+    <p>
+        Soy Nicolás Arenas Ramírez, estudiante de Administración de Empresas en la 
+        Universidad Católica San Pablo, Arequipa.
+    </p>
+
+    <h2>Acerca de mí</h2>
+    <p>
+        Tengo 18 años, nací en Arequipa, Perú y estudié en el colegio De La Salle Arequipa 
+        desde los 5 años. Me gusta aprender cosas nuevas, soy curioso, alegre y siempre 
+        busco superarme. En el colegio hice muchos amigos que me ayudaron a crecer.
+    </p>
+
+    <h2>Mis Hobbies</h2>
+    <p>
+        Me encantan los videojuegos y el fútbol desde niño. Juego fútbol desde los 4 o 5 años. 
+        Mis equipos favoritos son el FC Barcelona y el FBC Melgar. Mi ídolo siempre ha sido Messi.
+    </p>
+    <p>
+        También disfruto jugar en PC o PS4. Mis juegos favoritos son FIFA, Fortnite y Valorant, 
+        que suelo jugar con mis amigos.
+    </p>
+
+    <h2>Lo que me gusta hacer…</h2>
+    <p>
+        Me gusta pasar tiempo con mis amigos: ir al gimnasio, jugar fútbol, videojuegos y 
+        salir a reuniones o fiestas. Los valoro mucho porque siempre aprendo algo de ellos.
+    </p>
+
+    <h2>¿Cómo contactarme?</h2>
+    <p>Puedes escribirme o visitar mi perfil:</p>
+
+    <a class="boton" href="mailto:nicolas.arenas@ucsp.edu.pe">Enviar correo</a>
+    <a class="boton" href="https://www.linkedin.com/in/nicolas-francisco-arenas-ramirez-730008389" target="_blank">
+        Ver LinkedIn
+    </a>
+
+</div>
 
 </body>
 </html>
